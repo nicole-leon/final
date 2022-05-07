@@ -1,3 +1,129 @@
 * {
+    background-color: dimgrey;
+}
+.full-page {
+    display: grid;
+    grid-template-rows: 200px 150px 500px;
+    grid-template-columns: 845px 845px;
+}
+.header-area {
+    background-color: #CC5DE1;
+    color: white;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: scriptorama-tradeshow-jf,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    margin-bottom: 0px;
+    padding-top: 35px;
+}
+.nav-area, .navlinks {
+    background-color: #894196;
+    color: white;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-family: scriptorama-tradeshow-jf,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 5px 0px 0px 300px;
+}
+.menu {
+    background-color: #894196;
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+a {
+    background-color:#894196;
+    color: white;
+    text-decoration: none;
+}
+.home-pic {
+    height: 500px;
+    width: 750px;
+    margin: 25px 0px 0px 65px;
+}
+.home-desc {
     background-color: white;
+    color: black;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    height: 500px;
+    width: 750px;
+    margin: 25px 0px 0px 35px;
+}
+h3 {
+    background-color: white;
+    font-size: 30px;
+    padding: 15px 0px 0px 25px;
+}
+.intro {
+    background-color: white;
+    line-height: 1.5;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px;
+}
+.about-desc {
+    background-color: white;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin: 25px 25px 0px 25px;
+}
+.about-text {
+    background-color: white;
+    color: black;
+    padding: 25px 25px 25px 25px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+.project1-image {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 500px;
+    width: 400px;
+    margin: 13px 0px 0px 1px;
+}
+.project1-desc {
+    background-color: white;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 500px;
+    width: 400px;
+    margin: 25px 0px 0px 415px;
+}
+.project-text {
+    background-color: white;
+    color: black;
+    padding: 25px 25px 25px 25px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+.project2-image {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    height: 500px;
+    width: 400px;
+    margin: 13px 10px 0px 15px;
+}
+.project2-desc {
+    background-color: white;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    height: 500px;
+    width: 400px;
+    margin: 25px 0px 0px 445px;
+}
+.contact-desc {
+    background-color: white;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin: 25px 25px 0px 25px;
+}
+.contact-text {
+    background-color: white;
+    color: black;
+    padding: 25px 25px 25px 25px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
