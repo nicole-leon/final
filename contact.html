@@ -10,12 +10,39 @@
 
 <body>
     <div class="full-page">
-        <div class="header-area">Nicole León</div>
+        <div class="header-area">
+            <a href="index.html" class="header-area">Nicole León</a></div>
         <div class="nav-area">
-            <nav>Home About Projects Contact</nav>
+            <nav class="navbar"><ul class="navlinks">
+                <div class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </div>
+            </nav></ul>
         </div>
         <div class="contact-desc">
-            <p class="contact-text">Blablablablablablabla</p>
+            <p class="contact-text">
+                <h3>Business related inquiries only</h3>
+                <form>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="company">Company URL</label><br>
+                    <input type="text" id="company" name="company"><br>
+                    <p>Purpose of Contact</p>
+                    <input type="radio" id="sponsor" name="purpose" value="sponsor">
+                    <label for="sponsor">Sponsorship</label>
+                    <input type="radio" id="publish" name="purpose" value="publish">
+                    <label for="publish">Publishing</label>
+                    <input type="radio" id="agent" name="purpose" value="agent">
+                    <label for="agent">Agency</label>
+                    <input type="radio" id="promo" name="purpose" value="promo">
+                    <label for="promo">Promotionals</label><br><br>
+                    <label for="message">Message</label><br>
+                    <input type="text" id="message" name="message">
+                </form>
+            </p>
         </div>
 
 <footer>
